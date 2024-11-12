@@ -1,4 +1,5 @@
 // app/page.tsx
+'use client';  // Esto marca el componente como un componente del cliente
 
 import { createClient } from '@/lib/supabaseClient';
 import { useEffect, useState } from 'react';
