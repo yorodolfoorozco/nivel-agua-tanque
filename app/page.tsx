@@ -1,7 +1,7 @@
 // app/page.tsx
 'use client';  // Esto marca el componente como un componente del cliente
 
-import supabase from '@/lib/supabaseClient';
+import supabase from '@/lib/supabaseClient';  // Importa la instancia de supabase
 import { useEffect, useState } from 'react';
 
 export default function HomePage() {
