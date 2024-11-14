@@ -1,10 +1,8 @@
 // app/page.tsx
 'use client';  // Esto marca el componente como un componente del cliente
 
-import { createClient } from '@/lib/supabaseClient';
+import supabase from '@/lib/supabaseClient';
 import { useEffect, useState } from 'react';
-
-const supabase = createClient();
 
 export default function HomePage() {
   const [waterLevel, setWaterLevel] = useState<number | null>(null);
